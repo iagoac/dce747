@@ -14,7 +14,7 @@
 
 As aulas serão todas ministradas on-line. Aulas teóricas expositivas serão realizadas de maneira assíncrona, enquanto as provas poderão ser síncronas ou assíncronas. Aulas de dúvidas, discussões e apresentações serão realizadas de forma síncrona. Todos os slides e vídeos utilizados serão disponibilizados assim que estiverem prontos.
 
-  - **10/11** - Aula 01: Introdução a disciplina DCE747 (Assíncrona)
+  - **10/11** - [Aula 01: Introdução a disciplina DCE747 (Assíncrona)](https://youtu.be/ir2FGqbpvoM)
   - **11/11** - Aula 02: Teste: Como está seu inglês? (Assíncrona)
   - **17/11** - Aula 03: Estratégias de leitura em Inglês (Assíncrona)
   - **18/11** - Aula 04: Apresentação de seminário (Assíncrona)
