@@ -1,0 +1,368 @@
+\documentclass[compress,mathserif]{beamer}
+\usetheme{sthlm}
+
+%-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+%        LOADING BEAMER PACKAGES
+%-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+\usepackage{
+booktabs,
+datetime,
+dtk-logos,
+graphicx,
+multicol,
+pgfplots,
+ragged2e,
+tabularx,
+tikz,
+wasysym,
+multirow,
+float,
+caption,
+subcaption,
+amsmath,
+mathptmx,
+animate
+}
+
+\usepackage[scaled=0.9]{helvet}
+\usepackage{courier}
+
+\usefonttheme[onlymath]{serif}
+
+\definecolor{mygreen}{RGB}{113, 166, 70}
+\definecolor{myblue}{RGB}{68, 140, 185}
+\definecolor{myred}{RGB}{217, 98, 55}
+\definecolor{mypurple}{RGB}{83, 65, 126}
+\definecolor{solviaveis}{RGB}{188, 207, 241}
+
+\pgfplotsset{compat=1.8}
+
+\usepackage[utf8]{inputenc}
+\usepackage[portuguese]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{newpxtext,newpxmath}
+\usepackage{listings}
+
+\lstset{ %
+language=[LaTeX]TeX,
+basicstyle=\normalsize\ttfamily,
+keywordstyle=,
+numbers=left,
+numberstyle=\tiny\ttfamily,
+stepnumber=1,
+showspaces=false,
+showstringspaces=false,
+showtabs=false,
+breaklines=true,
+frame=tb,
+framerule=0.5pt,
+tabsize=4,
+framexleftmargin=0.5em,
+framexrightmargin=0.5em,
+xleftmargin=0.5em,
+xrightmargin=0.5em
+}
+
+
+
+%-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+%        LOADING TIKZ LIBRARIES
+%-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+\usetikzlibrary{
+backgrounds,
+mindmap
+}
+
+%-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+%        BEAMER OPTIONS
+%-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+\setbeameroption{show notes}
+
+%-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+%        BEAMER COMMANDS
+%-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+
+%-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+%
+%	PRESENTATION INFORMATION
+%
+%-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+\title{Estratégias de leitura \\ em Inglês}
+\subtitle{DCE747 - Inglês Técnico}
+%\date{\small{\jobname}}
+\author{\texttt{Iago Carvalho}}
+\institute{\texttt{Departamento de Ciência da Computação}}
+
+\hypersetup{
+pdfauthor = {Iago A. Carvalho},      
+pdfsubject = {Pesquisa Operacional},
+pdfkeywords = {},  
+pdfmoddate= {D:\pdfdate},          
+pdfcreator = {WriteLaTeX}
+}
+
+\begin{document}
+
+\begin{frame}
+\titlepage
+
+\end{frame}
+
+%% --------------------------------------------------------
+
+\begin{frame}{Existe uma forma simples de ler em inglês?}
+
+A resposta mais simples: \textbf{NÃO!!!}
+
+\vspace{0.5cm}
+
+O que existem são formas de extrair o conhecimento de um texto
+
+\vspace{0.5cm}
+
+Estas estratégias podem ser utilizadas em (quase) qualquer idioma
+\begin{itemize}
+    \item Inglês
+    \item Francês
+    \item Italiano
+    \item Alemão
+    \item $\ldots$
+\end{itemize}
+
+\end{frame}
+
+%% --------------------------------------------------------
+
+\begin{frame}{Objetivo da leitura}
+
+A primeira coisa é ter em mente qual é seu objetivo ao ler 
+\begin{itemize}
+    \item Diferentes textos tem diferentes objetivos
+    \item É muito diferente a leitura de um livro de literatura e a de um artigo técnico em computação
+\end{itemize}
+
+\vspace{0.5cm}
+
+Pode-se buscar entender o texto de forma ampla
+
+\vspace{0.5cm}
+
+De forma contrária, pode ser que o objetivo seja encontrar uma informação específica dentro do texto
+
+\end{frame}
+
+%% --------------------------------------------------------
+
+\begin{frame}{Identificação de cognatos}
+
+Independente de seu objetivo, a primeira estratégia é simples: a identificação de palavras cognatas!
+\begin{itemize}
+    \item Também são chamados de palavras transparentes
+    \item São palavras em outro idioma que se assemelha a uma em nosso idioma
+\end{itemize}
+
+\vspace{0.5cm}
+
+Exemplos de cognatos:
+\begin{itemize}
+    \item Telephone
+    \item Car
+    \item History
+    \item Garage
+    \item Economy
+\end{itemize}
+
+\vspace{0.5cm}
+
+A identificação de cognatos nos ajuda a identificar o sentido geral do texto
+
+\end{frame}
+
+%% --------------------------------------------------------
+
+\begin{frame}{Cuidado com os falsos cognatos}
+
+Existem diversas palavras que parecem ser cognatos mas, na verdade, não são!
+
+\vspace{0.5cm}
+
+É de extrema importância saber quais são estas palavras para que o texto seja entendido corretamente
+
+\vspace{0.5cm}
+
+Exemplos de falsos cognatos:
+\begin{itemize}
+    \item Mayor (prefeito)
+    \item Parents (pais)
+    \item Pasta (macarrão)
+    \item Refrigerant (substância refrigerante)
+    \item Push (empurrar)
+    \item \href{https://www.sk.com.br/sk-falsos-cognatos-ou-falsos-amigos.html}{\beamergotobutton{Link}}
+\end{itemize}
+\end{frame}
+
+%% --------------------------------------------------------
+
+\begin{frame}{Palavras repetidas}
+
+Se uma palavra é repetida muitas vezes durante o texto, provavelmente ela é importante!
+
+\vspace{0.5cm}
+
+Vale a pena tirar alguns segundos para descobrir a tradução desta palavra
+
+\vspace{0.5cm}
+
+Entretanto, não é muito comum encontrarmos palavras repetidas diversas vezes
+\begin{itemize}
+    \item Normalmente, autores utilizam sinônimos de uma mesma palavra para que o texto torne-se menos enfadonho e repetitivo
+\end{itemize}
+
+\end{frame}
+
+%% --------------------------------------------------------
+
+\begin{frame}{Pistas tipográficas}
+
+São elementos visuais que ajudam na compreensão do texto
+
+\vspace{0.5cm}
+
+São exemplos de tais elementos visuais
+\begin{itemize}
+    \item Palavras em \textbf{negrito}
+    \item Palavras em \textit{itálico}
+    \item \underline{Sublinhado}
+    \item LETRAS MAIÚSCULAS
+    \item Reticências$\ldots$
+    \item "Aspas"
+    \item (Parênteses)
+\end{itemize}
+\end{frame}
+
+%% --------------------------------------------------------
+
+\begin{frame}{\textit{Skimming}}
+
+Esta é uma técnica muito interessante para obtermos a ideia geral do texto
+\begin{itemize}
+    \item Equivale quase que a dar uma passada rápida de olho
+\end{itemize}
+
+\vspace{0.5cm}
+
+A ideia é identificar palavras conhecidas e cognatos presentes no texto
+\begin{itemize}
+    \item Desta forma, pode-se ter uma ideia geral do que se trata cada parágrafo que você está lendo
+    \item Assim, é possível montar uma sequência de raciocínio e entender o sentido global do texto
+\end{itemize}
+
+\end{frame}
+
+%% --------------------------------------------------------
+
+\begin{frame}{Objetivos do \textit{Skimming}}
+
+\begin{enumerate}
+    \item Obter uma ideia geral do texto: Muito útil na primeira leitura de um texto como forma de construir um \textit{preview} do que está por vir \vspace{0.5cm}
+    \item Economia de tempo: Pode-se poupar muito tempo ao dar uma passada de olho no texto ao invés de tentar entende-lo por completo. Isto é muito útil em provas ou testes onde o tempo é um fator essencial
+    \vspace{0.5cm}
+    \item Revisar um texto já lido anteriormente: quando você já leu e compreendeu um texto, realizar o \textit{skimming}
+\end{enumerate}
+
+\end{frame}
+
+%% --------------------------------------------------------
+
+\begin{frame}{Como realizar o \textit{Skimming}}
+
+Leia sempre o início e o fim
+\begin{itemize}
+    \item Primeira e última frase de um parágrafo
+    \item Primeiro e último parágrafo de uma sessão
+    \item Primera e última sessão de um texto
+    \begin{itemize}
+        \item Resumo e conclusões, no caso de artigos científicos
+    \end{itemize}
+\end{itemize}
+
+Leia somente o necessário para identificar o sentido geral do texto ou parágrafo
+\begin{itemize}
+    \item A ideia principal aqui é economizar tempo!
+\end{itemize}
+
+Atente-se a pistas tipográficas
+\begin{itemize}
+    \item Normalmente elas contém a ideia central de cada parágrafo
+\end{itemize}
+\end{frame}
+
+%% --------------------------------------------------------
+
+\begin{frame}{Quando utilizar o \textit{Skimming}}
+
+Ele pode (e deve!) ser utilizado em
+\begin{itemize}
+    \item Notícias
+    \item Textos científicos
+    \item Artigos técnicos
+\end{itemize}
+
+\vspace{0.5cm}
+
+Entretanto, não é muito útil realizar \textit{skimming} para a compreensão de outros tipos de textos
+\begin{itemize}
+    \item Textos literários (romances, novelas)
+    \item Textos muito curtos
+    \item Poesia
+\end{itemize}
+
+\end{frame}
+
+%% --------------------------------------------------------
+
+\begin{frame}{Dicas para um bom \textit{skimming}}
+
+\begin{enumerate}
+    \item Tenha foco e uma ideia clara do que quer entender
+    \item Faça o \textit{skimming} em etapas
+    \begin{itemize}
+        \item Na primeira, atente-se as figuras, tabelas e títulos
+        \item Na segunda, concentre-se na introdução e conclusão
+        \item Na terceira, foque individualmente em cada sessão
+        \item Na quarta, a ideia é entender cada parágrafo separadamente
+    \end{itemize}
+    \item Utilize anotações
+    \item Resuma as ideias obtidas em parágrafos a parte
+    \item Construa questões sobre o texto e tente responde-las
+\end{enumerate}
+
+\end{frame}
+
+%% --------------------------------------------------------
+
+\begin{frame}{\textit{Scanning}}
+
+O \textit{scanning} é o inverso do \textit{skimming}
+
+\vspace{0.5cm}
+
+Aqui o objetivo é procurar por ideias e detalhes específicos
+\begin{itemize}
+    \item Valores
+    \item Datas
+    \item Alguma palavra específica
+\end{itemize}
+
+\vspace{0.5cm}
+
+Esta técnica é muito útil para responder questões de provas ou exames de proeficiência em Inglês
+
+\end{frame}
+
+\end{document}
