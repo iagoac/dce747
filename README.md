@@ -16,7 +16,7 @@ As aulas serão todas ministradas on-line. Aulas teóricas expositivas serão re
 
   - **10/11** - [Aula 01: Introdução a disciplina DCE747 (Assíncrona)](https://youtu.be/ir2FGqbpvoM)
   - **11/11** - [Aula 02: Teste: Como está seu inglês? (Assíncrona)](https://github.com/iagoac/dce747/tree/main/exercicios/lista_0)
-  - **17/11** - Aula 03: Estratégias de leitura em Inglês (Assíncrona)
+  - **17/11** - [Aula 03: Estratégias de leitura em Inglês (Assíncrona)](https://youtu.be/ECjY9rwiWFw)
   - **18/11** - Aula 04: Apresentação de seminário (Assíncrona)
   - **24/11** - Aula 05: Cognatos e falsos cognatos (Assíncrona)
   - **25/11** - Aula 06: Apresentação de seminário (Assíncrona)
