@@ -18,7 +18,7 @@ As aulas serão todas ministradas on-line. Aulas teóricas expositivas serão re
   - **11/11** - [Aula 02: Teste: Como está seu inglês? (Assíncrona)](https://github.com/iagoac/dce747/tree/main/exercicios/lista_0)
   - **17/11** - [Aula 03: Estratégias de leitura em Inglês (Assíncrona)](https://youtu.be/ECjY9rwiWFw)
   - **18/11** - [Aula 04: Apresentação de seminário (Assíncrona)](https://github.com/iagoac/dce747/blob/main/textos/resumo_aula_04.pdf)
-  - **24/11** - Aula 05: Cognatos e falsos cognatos (Assíncrona)
+  - **24/11** - [Aula 05: Cognatos e falsos cognatos (Assíncrona)](https://youtu.be/BAx71Q_Ak2Y)
   - **25/11** - [Aula 06: Apresentação de seminário (Assíncrona)](https://github.com/iagoac/dce747/blob/main/textos/resumo_aula_06.pdf)
   - **01/12** - Aula 07: Verbos modais, adjetivos em grau comparativo e termos comparativos (Assíncrona)
   - **02/12** - Aula 08: Apresentação de seminário (Assíncrona)
