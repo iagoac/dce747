@@ -7,11 +7,11 @@ Cada resumo será avaliado com uma nota entre 0 e 100. Ao fim do semestre, será
 A avaliação individual de cada resumo seguirá a tabela abaixo
 
 
-| Uso correto da língua portuguesa  | Amplitude  |  Estruturação |
+| Uso correto da língua portuguesa (ou inglesa) | Amplitude  |  Estruturação |
 | :------------: | :------------: | :------------: |
 | 20 pontos  | 40 pontos  | 40 pontos  |
 
-Por uso correto da língua portuguesa, entende-se a avaliação do texto quanto a sua gramática, ortografia e uso correto da língua portuguesa.
+Por uso correto da língua portuguesa (ou inglesa), entende-se a avaliação do texto quanto a sua gramática, ortografia e uso correto do idioma no qual o resumo está escrito.
 
 Por amplitude, entende-se que o resumo enviado foi capaz de apresentar as ideias principais do texto ao invés de focar em uma pequena parte.
 
