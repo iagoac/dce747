@@ -1,0 +1,390 @@
+\documentclass[compress,mathserif]{beamer}
+\usetheme{sthlm}
+
+%-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+%        LOADING BEAMER PACKAGES
+%-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+\usepackage{
+booktabs,
+datetime,
+dtk-logos,
+graphicx,
+multicol,
+pgfplots,
+ragged2e,
+tabularx,
+tikz,
+wasysym,
+multirow,
+float,
+caption,
+subcaption,
+amsmath,
+mathptmx,
+animate
+}
+
+\usepackage[scaled=0.9]{helvet}
+\usepackage{courier}
+
+\usefonttheme[onlymath]{serif}
+
+\definecolor{mygreen}{RGB}{113, 166, 70}
+\definecolor{myblue}{RGB}{68, 140, 185}
+\definecolor{myred}{RGB}{217, 98, 55}
+\definecolor{mypurple}{RGB}{83, 65, 126}
+\definecolor{solviaveis}{RGB}{188, 207, 241}
+
+\pgfplotsset{compat=1.8}
+
+\usepackage[utf8]{inputenc}
+\usepackage[portuguese]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{newpxtext,newpxmath}
+\usepackage{listings}
+
+\lstset{ %
+language=[LaTeX]TeX,
+basicstyle=\normalsize\ttfamily,
+keywordstyle=,
+numbers=left,
+numberstyle=\tiny\ttfamily,
+stepnumber=1,
+showspaces=false,
+showstringspaces=false,
+showtabs=false,
+breaklines=true,
+frame=tb,
+framerule=0.5pt,
+tabsize=4,
+framexleftmargin=0.5em,
+framexrightmargin=0.5em,
+xleftmargin=0.5em,
+xrightmargin=0.5em
+}
+
+
+
+%-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+%        LOADING TIKZ LIBRARIES
+%-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+\usetikzlibrary{
+backgrounds,
+mindmap
+}
+
+%-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+%        BEAMER OPTIONS
+%-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+\setbeameroption{show notes}
+
+%-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+%        BEAMER COMMANDS
+%-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+
+%-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+%
+%	PRESENTATION INFORMATION
+%
+%-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+\title{Verbos modais, adjetivos \\ em grau comparativo e \\ termos comparativos}
+\subtitle{DCE747 - Inglês Técnico}
+%\date{\small{\jobname}}
+\author{\texttt{Iago Carvalho}}
+\institute{\texttt{Departamento de Ciência da Computação}}
+
+\hypersetup{
+pdfauthor = {Iago A. Carvalho},      
+pdfsubject = {Pesquisa Operacional},
+pdfkeywords = {},  
+pdfmoddate= {D:\pdfdate},          
+pdfcreator = {WriteLaTeX}
+}
+
+\begin{document}
+
+\begin{frame}
+\titlepage
+
+\end{frame}
+
+%% --------------------------------------------------------
+
+\begin{frame}{Verbos modais}
+
+Os verbos modais são palavras que acompanham os verbos principais da frase para expressar algum sentido específico.
+
+\vspace{0.5cm}
+
+Eles acrescentam uma segunda ideia, que pode ser 
+\begin{itemize}
+    \item Possibilidade
+    \item Habilidade
+    \item Obrigação
+    \item Permissão
+    \item Proibição
+    \item Desejos
+    \item $\ldots$
+\end{itemize} 
+
+\end{frame}
+
+%% --------------------------------------------------------
+
+\begin{frame}{Verbos modais de pedido}
+
+Os principais são \textit{Can} (poder), \textit{Could} (poderia), \textit{Will} (ir – futuro), e \textit{Would} (iria).
+
+\vspace{0.5cm}
+
+\begin{itemize}
+    \item Can you help me please?
+    \item Will you come to the party?
+    \item Could you tell me what time it is?
+    \item Would you pass me the salt, please?
+\end{itemize}
+
+\end{frame}
+
+%% --------------------------------------------------------
+
+\begin{frame}{Verbos modais de permissão}
+
+Os principais são \textit{Can} (poder), \textit{Could} (poderia) e \textit{May} (poder – informal).
+
+\vspace{0.5cm}
+
+\begin{itemize}
+    \item You can borrow my tent.
+    \item Can I have some of your chips?
+    \item Could I speak to the manager please?
+    \item May I use your car this afternoon?
+\end{itemize}
+
+\end{frame}
+
+%% --------------------------------------------------------
+
+\begin{frame}{Verbos modais de ajuda}
+
+Os principais são \textit{Can} (poder), \textit{May} (poder – informal), \textit{Shall} (deveria) e \textit{Will} (ir – futuro).
+
+\vspace{0.5cm}
+
+\begin{itemize}
+    \item Can I give you a hand?
+    \item May I help you?
+    \item Shall I answer the phone?
+    \item I will drive you home.
+\end{itemize}
+
+\end{frame}
+
+%% --------------------------------------------------------
+
+\begin{frame}{Verbos modais de sugestão e conselho}
+
+Os principais são \textit{Should}, \textit{Ought to} e \textit{Shall} (os 3 significam “deveria”), além de \textit{Have to} (ter que)
+
+\vspace{0.5cm}
+
+\begin{itemize}
+    \item You should eat more.
+    \item You ought to go to the dentist.
+    \item Shall we go?
+    \item You really have to try the cake – It’s delicious!
+\end{itemize}
+
+\end{frame}
+
+%% --------------------------------------------------------
+
+\begin{frame}{Verbos modais de certeza}
+
+Os principais são \textit{Should} (deveria), \textit{Ought to} (deveria), \textit{Must} (dever), \textit{Can’t} (não poder), e \textit{Will} (ir – futuro)
+
+\vspace{0.5cm}
+
+\begin{itemize}
+    \item There is his car... So, he must be here!
+    \item She’s late – She must have missed the buss.
+    \item You can’t go to the party tonight.
+    \item It will be summer soon.
+    \item I won’t forget you.
+\end{itemize}
+
+\end{frame}
+
+%% --------------------------------------------------------
+
+\begin{frame}{Verbos modais de probabilidade}
+
+Os principais são \textit{Should}, \textit{Shought} e \textit{Ought} (deveria)
+
+\vspace{0.5cm}
+
+\begin{itemize}
+    \item They should be in New Jersey by now.
+    \item I am just tired – I should feel better tomorrow.
+\end{itemize}
+
+\end{frame}
+
+%% --------------------------------------------------------
+
+\begin{frame}{Verbos modais de possibilidade}
+
+Os principais são \textit{May} (poder), \textit{Could} (poderia) e \textit{Might} (poder, dever – em termos de possibilidade)
+
+\vspace{0.5cm}
+
+\begin{itemize}
+    \item The TV could be in the garage, but I’m not sure.
+    \item I might have done that, I can’t remember.
+    \item I may have seen this t-shirt for sale.
+\end{itemize}
+
+\end{frame}
+
+%% --------------------------------------------------------
+
+\begin{frame}{Verbos modais de necessidade e obrigação}
+
+Os principais são \textit{Need to} (precisar), \textit{Have to} (ter que), \textit{Have got to} (ter que), \textit{Must} (dever):
+
+\vspace{0.5cm}
+
+\begin{itemize}
+    \item I need to go home.
+    \item I have to call the school today.
+    \item I’ve got to up early tomorrow.
+    \item You must to learn English to work here.
+    \item You’ll have to help me with homework.
+    \item You’ll need to learn English before you go to the USA.
+\end{itemize}
+
+\end{frame}
+
+%% --------------------------------------------------------
+
+\begin{frame}{Adjetivos em grau comparativo}
+
+Os adjetivos, além de qualificar substantivos, também fazem comparações
+
+\vspace{0.5cm}
+
+Em Inglês, eles tem 3 diferentes graus de comparação
+\begin{itemize}
+    \item Grau normal (por exemplo, \textit{beautiful})
+    \item Grau comparativo (por exemplo, \textit{more beautiful than})
+    \item Grau superlativo (por exemplo, \textit{the most beautiful})
+\end{itemize}
+
+\vspace{0.5cm}
+
+Existem algumas regras simples para montarmos adjetivos em grau comparativo
+
+\end{frame}
+
+%% --------------------------------------------------------
+
+\begin{frame}{Regra 1}
+
+De modo geral, todos os adjetivos monossílabos recebem o sufixo -er
+
+\vspace{0.5cm}
+
+\begin{itemize}
+    \item \textit{taller than} (mais alto que)
+    \item \textit{smaller than} (menor que)
+    \item \textit{greater than} (maior que)
+    \item older than (mais velho que)
+    \item \textit{younger than} (mais novo que, mais jovem que)
+    \item \textit{richer than} (mais rico que)
+    \item \textit{lower than} (mais baixo que)
+    \item \textit{cheaper than} (mais barato que)
+    \item \textit{narrower than} (mais estreito que)
+\end{itemize}
+
+\end{frame}
+
+%% --------------------------------------------------------
+
+\begin{frame}{Regra 2}
+
+Nos adjetivos terminados em -y, retire o -y e acrescente -ier
+
+\vspace{0.5cm}
+
+\begin{itemize}
+    \item \textit{easy} $\rightarrow$ \textit{easier than} (mais fácil que)
+    \item \textit{pretty} $\rightarrow$ \textit{prettier than} (mais bonita que)
+    \item \textit{sunny} $\rightarrow$ \textit{sunnier than} (mais ensolarado que)
+    \item \textit{rainy} $\rightarrow$ \textit{rainier than} (mais chuvoso que)
+    \item \textit{happy} $\rightarrow$ \textit{happier than} (mais feliz que)
+    \item \textit{busy} $\rightarrow$ \textit{busier than} (mais ocupado que)
+    \item \textit{shy} $\rightarrow$ \textit{shier than} (mais tímido que)
+\end{itemize}
+
+\end{frame}
+
+%% --------------------------------------------------------
+
+\begin{frame}{Regra 3}
+
+Nos adjetivos terminados em uma sequência de consoante+vogal+consoante, dobre a última consoante e acrescente -er
+
+\vspace{0.5cm}
+
+\begin{itemize}
+    \item \textit{hot} $\rightarrow$ \textit{hotter than} (mais quente que)
+    \item \textit{big} $\rightarrow$ \textit{bigger than} (maior que)
+    \item \textit{wet} $\rightarrow$ \textit{wetter than} (mais molhado que)
+    \item \textit{sad} $\rightarrow$ \textit{sadder than} (mais triste que)
+\end{itemize}
+
+\end{frame}
+
+%% --------------------------------------------------------
+
+\begin{frame}{Regra 4}
+
+Adjetivos polissílabos e alguns dissílabos receberão a palavra more antes deles
+
+\vspace{0.5cm}
+
+\begin{itemize}
+    \item \textit{beautiful} $\rightarrow$ \textit{more beautiful than} (mais bonito que)
+    \item \textit{interesting} $\rightarrow$ \textit{more interesting than} (mais interessante que)
+    \item \textit{active} $\rightarrow$ \textit{more active than} (mais ativo que)
+    \item \textit{useful} $\rightarrow$ \textit{more useful than} (mais útil que)
+\end{itemize}
+
+\end{frame}
+
+%% --------------------------------------------------------
+
+\begin{frame}{Regra 5}
+
+Não há regra! Alguns adjetivos possuem uma forma especial
+\begin{itemize}
+    \item Muito parecido ao conceito de verbos irregulares
+\end{itemize}
+
+\vspace{0.5cm}
+
+\begin{itemize}
+    \item \textit{good} $\rightarrow$ \textit{better than} (melhor que)
+    \item \textit{bad} $\rightarrow$ \textit{worse than} (pior que)
+    \item \textit{much} $\rightarrow$ \textit{more than} (mais que)
+\end{itemize}
+
+\end{frame}
+
+
+\end{document}
