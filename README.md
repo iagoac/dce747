@@ -25,7 +25,7 @@ As aulas serão todas ministradas on-line. Aulas teóricas expositivas serão re
   - **02/12** - [Aula 08: Apresentação de seminário (Assíncrona)](https://github.com/iagoac/dce747/blob/main/textos/resumo_aula_08.pdf)
     - [Seminário](https://www.youtube.com/watch?v=68bXdGRMdlA)
   - **08/12** - Aula 09: Pronomes (Assíncrona)
-  - **09/12** - Aula 10: Apresentação de seminário (Assíncrona)
+  - **09/12** - [Aula 10: Apresentação de seminário (Assíncrona)](https://github.com/iagoac/dce747/blob/main/textos/resumo_aula_10.pdf)
   - **15/12** - Aula 11: Estruturação de frases em inglês e grupos nominais (Assíncrona)
   - **16/12** - Aula 12: Apresentação de seminário (Assíncrona)
   - **22/12** - Aula 13: Exercícios teóricos (Assíncrona)
