@@ -21,7 +21,7 @@ As aulas serão todas ministradas on-line. Aulas teóricas expositivas serão re
   - **24/11** - [Aula 05: Cognatos e falsos cognatos (Assíncrona)](https://youtu.be/BAx71Q_Ak2Y)
   - **25/11** - [Aula 06: Apresentação de seminário (Assíncrona)](https://github.com/iagoac/dce747/blob/main/textos/resumo_aula_06.pdf)
     - [Seminário](https://www.youtube.com/watch?v=0OaFcWMYVFs)
-  - **01/12** - Aula 07: Verbos modais, adjetivos em grau comparativo e termos comparativos (Assíncrona)
+  - **01/12** - [Aula 07: Verbos modais, adjetivos em grau comparativo e termos comparativos (Assíncrona)](https://youtu.be/FGl75Ih37LU)
   - **02/12** - [Aula 08: Apresentação de seminário (Assíncrona)](https://github.com/iagoac/dce747/blob/main/textos/resumo_aula_08.pdf)
     - [Seminário](https://www.youtube.com/watch?v=68bXdGRMdlA)
   - **08/12** - Aula 09: Pronomes (Assíncrona)
