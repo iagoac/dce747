@@ -1,0 +1,665 @@
+\documentclass[compress,mathserif,xcolor=table]{beamer}
+\usetheme{sthlm}
+
+%-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+%        LOADING BEAMER PACKAGES
+%-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+\usepackage{
+booktabs,
+datetime,
+dtk-logos,
+graphicx,
+multicol,
+pgfplots,
+ragged2e,
+tabularx,
+tikz,
+wasysym,
+multirow,
+float,
+caption,
+subcaption,
+amsmath,
+mathptmx,
+animate
+}
+
+\usepackage[scaled=0.9]{helvet}
+\usepackage{courier}
+
+\usefonttheme[onlymath]{serif}
+
+\definecolor{mygreen}{RGB}{113, 166, 70}
+\definecolor{myblue}{RGB}{68, 140, 185}
+\definecolor{myred}{RGB}{217, 98, 55}
+\definecolor{mypurple}{RGB}{83, 65, 126}
+\definecolor{solviaveis}{RGB}{188, 207, 241}
+
+\pgfplotsset{compat=1.8}
+
+\usepackage[utf8]{inputenc}
+\usepackage[portuguese]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{newpxtext,newpxmath}
+\usepackage{listings}
+
+\lstset{ %
+language=[LaTeX]TeX,
+basicstyle=\normalsize\ttfamily,
+keywordstyle=,
+numbers=left,
+numberstyle=\tiny\ttfamily,
+stepnumber=1,
+showspaces=false,
+showstringspaces=false,
+showtabs=false,
+breaklines=true,
+frame=tb,
+framerule=0.5pt,
+tabsize=4,
+framexleftmargin=0.5em,
+framexrightmargin=0.5em,
+xleftmargin=0.5em,
+xrightmargin=0.5em
+}
+
+
+
+%-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+%        LOADING TIKZ LIBRARIES
+%-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+\usetikzlibrary{
+backgrounds,
+mindmap
+}
+
+%-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+%        BEAMER OPTIONS
+%-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+\setbeameroption{show notes}
+
+%-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+%        BEAMER COMMANDS
+%-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+
+%-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+%
+%	PRESENTATION INFORMATION
+%
+%-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+\title{Pronomes}
+\subtitle{DCE747 - Inglês Técnico}
+%\date{\small{\jobname}}
+\author{\texttt{Iago Carvalho}}
+\institute{\texttt{Departamento de Ciência da Computação}}
+
+\hypersetup{
+pdfauthor = {Iago A. Carvalho},      
+pdfsubject = {Pesquisa Operacional},
+pdfkeywords = {},  
+pdfmoddate= {D:\pdfdate},          
+pdfcreator = {WriteLaTeX}
+}
+
+\begin{document}
+
+\begin{frame}
+\titlepage
+
+\end{frame}
+
+%% --------------------------------------------------------
+
+\begin{frame}{O que é um pronome?}
+
+Pronome é uma classe de palavras variável cuja finalidade é substituir ou determinar (acompanhar) um substantivo
+
+\vspace{0.5cm}
+
+Em Inglês, existem pronomes com diversas funcionalidades
+\begin{itemize} 
+    \item Pessoais
+    \item Objeto
+    \item Possessivos
+    \item Reflexivos
+    \item Demonstrativos
+    \item Indefinidos
+    \item Relativos
+    \item Interrogativos
+\end{itemize} 
+
+\end{frame}
+
+%% --------------------------------------------------------
+
+\begin{frame}{Pronomes pessoais}
+
+Equivale ao sujeito em uma sentença, substituindo um substantivo
+
+Pronomes pessoais tem que ser usados em conjunto com um verbo
+\begin{itemize}
+    \item Como equivale ao sujeito, ele tem que realizar alguma ação
+    \item Da mesma forma que um substantivo
+\end{itemize}
+
+\vspace{0.5cm}
+
+\begin{itemize}
+    \item \textbf{I} live in Brazil. $\rightarrow$ \textbf{Eu} moro no Brasil;
+    \item \textbf{You} drink water. $\rightarrow$ \textbf{Você} bebe agua;
+    \item \textbf{He} speaks portuguese $\rightarrow$ \textbf{Ele} fala português;
+    \item \textbf{She} drives a red car. $\rightarrow$ \textbf{Ela} dirige um carro vermelho;
+    \item \textbf{It} bites. $\rightarrow$ \textbf{Ele} morde;
+    \item \textbf{We} eat meat. $\rightarrow$ \textbf{Nós} comemos carne;
+    \item \textbf{You} read a magazine. $\rightarrow$ \textbf{Vocês} leem uma revista;
+    \item \textbf{They} have a house $\rightarrow$ \textbf{Eles/elas} têm uma casa.
+\end{itemize}
+
+\end{frame}
+
+%% --------------------------------------------------------
+
+\begin{frame}{Pronomes objeto}
+
+Equivale ao objeto da oração
+\begin{itemize}
+    \item Quem recebe a ação
+    \item Deste modo, sua utilização nunca é conjugada com um verbo
+\end{itemize}
+
+\vspace{0.5cm}
+
+\begin{itemize}
+    \item Give it to \textbf{me}. / Dê isso para \textbf{mim}.
+    \item I will give an apple to \textbf{you}. / Eu vou dar uma maçã para \textbf{você}.
+    \item Show \textbf{him} the living room / Mostre a sala de estar a \textbf{ele}.
+    \item I gave \textbf{her} a book / Eu dei um livro a \textbf{ela}
+    \item She blamed \textbf{us} for the delay. / Ela \textbf{nos} culpou pelo atraso.
+    \item I will book \textbf{you} a romm. / Eu vou reservar um quarto para \textbf{vocês}.
+    \item Tell \textbf{them} I miss her. / Diga a \textbf{eles} que eu sinto saudade dela.
+\end{itemize}
+
+\end{frame}
+
+%% --------------------------------------------------------
+
+\begin{frame}{Pronomes objeto}
+
+\begin{table}[]
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{@{}ccc@{}}
+\toprule
+\rowcolor[HTML]{F9F9F9} 
+{\color[HTML]{212529} \textbf{Pronome}} & {\color[HTML]{212529} \textbf{Pronome Objeto}} & {\color[HTML]{212529} \textbf{Tradução}}                                    \\ \midrule
+\rowcolor[HTML]{F9F9F9} 
+{\color[HTML]{212529} I}   & {\color[HTML]{212529} Me}  & {\color[HTML]{212529} Eu / me / mim / comigo você} \\
+\rowcolor[HTML]{F5F5F5} 
+{\color[HTML]{212529} You} & {\color[HTML]{212529} You} & {\color[HTML]{212529} Você / te / ti / contigo}    \\
+\rowcolor[HTML]{F9F9F9} 
+{\color[HTML]{212529} He}  & {\color[HTML]{212529} Him} & {\color[HTML]{212529} Ele / o / lhe / lo / no}     \\
+\rowcolor[HTML]{F5F5F5} 
+{\color[HTML]{212529} She} & {\color[HTML]{212529} Her} & {\color[HTML]{212529} Ela / a / lhe / la / na}     \\
+\rowcolor[HTML]{F9F9F9} 
+{\color[HTML]{212529} It}               & {\color[HTML]{212529} It}                      & {\color[HTML]{212529} Ele / ela / o / a / lhe / lo / la / no / na}          \\
+\rowcolor[HTML]{F5F5F5} 
+{\color[HTML]{212529} We}  & {\color[HTML]{212529} Us}  & {\color[HTML]{212529} Nós / nos / conosco}         \\
+\rowcolor[HTML]{F9F9F9} 
+{\color[HTML]{212529} You} & {\color[HTML]{212529} You} & {\color[HTML]{212529} Vocês / los / nos / os / as} \\
+\rowcolor[HTML]{F5F5F5} 
+{\color[HTML]{212529} They}             & {\color[HTML]{212529} Them}                    & {\color[HTML]{212529} Eles / elas / os / as / los / las / nos / nas / lhes} \\ \bottomrule
+\end{tabular}%
+}
+\end{table}
+
+\end{frame}
+
+%% --------------------------------------------------------
+
+\begin{frame}{Pronomes possessivos}
+
+Indicam posse de algo
+\begin{itemize}
+    \item Sempre utilizados antes de um substantivo
+\end{itemize}
+
+\vspace{0.5cm}
+
+\begin{itemize}
+    \item \textbf{My} house is white. $\rightarrow$ \textbf{Minha} casa é branca.
+    \item \textbf{Your} car is beautiful. $\rightarrow$ \textbf{Seu} carro é bonito.
+    \item \textbf{His} phone is very expensive. $\rightarrow$ O celular \textbf{dele} é muito caro.
+    \item \textbf{Her} boyfriends is a doctor. $\rightarrow$ O namorado \textbf{dela} é um médico.
+    \item \textbf{Our} bathroom is clean. $\rightarrow$ \textbf{Nosso} banheiro é limpo;
+    \item \textbf{Your} green eyes are fabulous. $\rightarrow$ \textbf{Seus} olhos verdes são fabuloso;
+    \item \textbf{Their} children are healthy. $\rightarrow$ Os filhos \textbf{deles} são saudáveis.
+\end{itemize}
+\end{frame}
+
+%% --------------------------------------------------------
+
+\begin{frame}{Pronomes possessivos}
+
+\begin{table}[]
+\centering
+\label{tab:my-table2}
+\resizebox{0.7\textwidth}{!}{%
+\begin{tabular}{@{}cc@{}}
+\toprule
+\rowcolor[HTML]{F9F9F9} 
+{\color[HTML]{212529} \textbf{Pronome}} & {\color[HTML]{212529} \textbf{Tradução}}              \\ \midrule
+\rowcolor[HTML]{F5F5F5} 
+{\color[HTML]{212529} My}               & {\color[HTML]{212529} Meu / minha / meus / minhas}    \\
+\rowcolor[HTML]{F9F9F9} 
+{\color[HTML]{212529} Your}             & {\color[HTML]{212529} Seu / sua}                      \\
+\rowcolor[HTML]{F5F5F5} 
+{\color[HTML]{212529} His}              & {\color[HTML]{212529} Dele}                           \\
+\rowcolor[HTML]{F9F9F9} 
+{\color[HTML]{212529} Her}              & {\color[HTML]{212529} dela}                           \\
+\rowcolor[HTML]{F5F5F5} 
+{\color[HTML]{212529} Its}              & {\color[HTML]{212529} Dele / dela (coisas e animais)} \\
+\rowcolor[HTML]{F9F9F9} 
+{\color[HTML]{212529} Our} & {\color[HTML]{212529} Nosso / nossa / nossos / nossas} \\
+\rowcolor[HTML]{F5F5F5} 
+{\color[HTML]{212529} Your}             & {\color[HTML]{212529} Seus / suas}                    \\
+\rowcolor[HTML]{F9F9F9} 
+{\color[HTML]{212529} Their}            & {\color[HTML]{212529} Deles / delas}                  \\ \bottomrule
+\end{tabular}%
+}
+\end{table}
+
+\end{frame}
+
+%% --------------------------------------------------------
+
+\begin{frame}{Pronomes reflexivos}
+
+Pronomes utilizados quando o sujeito da oração pratica e é alvo de uma ação
+
+\vspace{0.5cm}
+
+\begin{itemize}
+    \item  I looked at \textbf{myself} in the photo. $\rightarrow$ Eu \textbf{me} olhei na foto.
+    \item How do you describe \textbf{yourself}? $\rightarrow$ Como você descreve a \textbf{si mesmo}?
+    \item He does not know \textbf{himself} $\rightarrow$ Ele não \textbf{se} conhece.
+    \item She takes care of \textbf{herself}. $\rightarrow$ Ela cuida de \textbf{si mesma}.
+    \item The cat is licking \textbf{itself}. $\rightarrow$ O gato está \textbf{se} lambendo.
+    \item We love \textbf{ourselves}. $\rightarrow$ Nós \textbf{nos} amamos.
+    \item You should love \textbf{yourselves}. $\rightarrow$ Vocês deveriam amar a \textbf{si próprios}.
+    \item They are proud of \textbf{themselves}. $\rightarrow$ Eles estão orgulhosos \textbf{deles mesmos}.
+\end{itemize}
+
+\end{frame}
+
+%% --------------------------------------------------------
+
+\begin{frame}{Pronomes reflexivos}
+
+\begin{table}[]
+\centering
+\label{tab:my-table3}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{@{}lll@{}}
+\toprule
+\rowcolor[HTML]{F9F9F9} 
+{\color[HTML]{212529} \textbf{Pronome pessoal}} &
+  {\color[HTML]{212529} \textbf{Pronome reflexivo}} &
+  \multicolumn{1}{c}{\cellcolor[HTML]{F9F9F9}{\color[HTML]{212529} \textbf{Tradução}}} \\ \midrule
+\rowcolor[HTML]{F5F5F5} 
+{\color[HTML]{212529} I}    & {\color[HTML]{212529} Myself}     & \cellcolor[HTML]{F9F9F9}{\color[HTML]{212529} A mim mesmo, -me}                        \\
+\rowcolor[HTML]{F9F9F9} 
+{\color[HTML]{212529} You}  & {\color[HTML]{212529} Yourself}   & \cellcolor[HTML]{F5F5F5}{\color[HTML]{212529} A ti, a você mesmo(a), -te,-se}          \\
+\rowcolor[HTML]{F5F5F5} 
+{\color[HTML]{212529} He}   & {\color[HTML]{212529} Himself}    & \cellcolor[HTML]{F9F9F9}{\color[HTML]{212529} A si, a ele mesmo, -se}                  \\
+\rowcolor[HTML]{F9F9F9} 
+{\color[HTML]{212529} Her}  & {\color[HTML]{212529} Herself}    & \cellcolor[HTML]{F5F5F5}{\color[HTML]{212529} A si, a ela mesma, -se}                  \\
+\rowcolor[HTML]{F5F5F5} 
+{\color[HTML]{212529} It}   & {\color[HTML]{212529} Itself}     & \cellcolor[HTML]{F9F9F9}{\color[HTML]{212529} A si mesmo(a), -se}                      \\
+\rowcolor[HTML]{F9F9F9} 
+{\color[HTML]{212529} We}   & {\color[HTML]{212529} Ourselves}  & \cellcolor[HTML]{F5F5F5}{\color[HTML]{212529} A nós mesmos(as), -nos}                  \\
+\rowcolor[HTML]{F5F5F5} 
+{\color[HTML]{212529} You}  & {\color[HTML]{212529} Yourselves} & \cellcolor[HTML]{F9F9F9}{\color[HTML]{212529} A vós, a vocês mesmos(as), -vos,-se}     \\
+\rowcolor[HTML]{F9F9F9} 
+{\color[HTML]{212529} They} & {\color[HTML]{212529} Themselves} & \cellcolor[HTML]{F5F5F5}{\color[HTML]{212529} A si, a eles mesmos, a elas mesmas, -se} \\ \bottomrule
+\end{tabular}%
+}
+\end{table}
+
+\end{frame}
+
+%% --------------------------------------------------------
+
+\begin{frame}{Pronomes demonstrativos}
+
+Têm a função principal de apontar uma pessoa, objeto, lugar, indicando ou mostrando a sua localização. 
+
+\vspace{0.25cm}   
+
+Pode acompanhar um substantivo ou referir-se a ele, por isso, os pronomes demonstrativos fazem flexão de número, ou seja, singular ou plural.
+
+\vspace{0.25cm}   
+
+\begin{itemize}
+    \item \textbf{This} is my house. These are our dogs. $\rightarrow$ \textbf{Esta} é a minha casa. \textbf{Estes} são os nossos cachorros.
+    \item \textbf{That} store is very far from here. $\rightarrow$ \textbf{Aquela} loja é muito longe daqui.
+    \item \textbf{Those} shoes are very beautiful. $\rightarrow$ \textbf{Aqueles} sapatos são muito bonitos. 
+\end{itemize}
+
+\end{frame}
+
+%% --------------------------------------------------------
+
+\begin{frame}{Pronomes demonstrativos}
+
+\begin{table}[]
+\centering
+\label{tab:my-table4}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{@{}ll@{}}
+\toprule
+\rowcolor[HTML]{F9F9F9} 
+{\color[HTML]{212529} \textbf{Pronome demonstrativo}} &
+  {\color[HTML]{212529} \textbf{Tradução}} \\ \midrule
+\rowcolor[HTML]{F5F5F5} 
+{\color[HTML]{212529} This (singular)}    & {\color[HTML]{212529} Este, esta, isto}                           \\
+\rowcolor[HTML]{F9F9F9} 
+{\color[HTML]{212529} That (singular)}  & {\color[HTML]{212529} Esse, essa, isso, aquele, aquela, aquilo}   \\
+\rowcolor[HTML]{F5F5F5} 
+{\color[HTML]{212529} These (plural)}   & {\color[HTML]{212529} Estes, estas}                     \\
+\rowcolor[HTML]{F9F9F9} 
+{\color[HTML]{212529} Those (plural)}  & {\color[HTML]{212529} Esses, essas, aqueles, aquelas}  \\ \bottomrule
+\end{tabular}%
+}
+\end{table}
+
+\vspace{0.5cm}
+
+\begin{minipage}{.49\textwidth}
+Quando algo está perto
+\begin{itemize}
+    \item This ou these
+\end{itemize}
+\end{minipage}
+\begin{minipage}{.49\textwidth}
+Quando algo está mais longe
+\begin{itemize}
+    \item That ou those
+\end{itemize}
+\end{minipage}
+
+\end{frame}
+
+%% --------------------------------------------------------
+
+\begin{frame}{Pronomes indefinidos}
+
+Os pronomes indefinidos são aqueles que substituem ou acompanham o substantivo de maneira imprecisa ou indeterminada.
+
+\vspace{0.5cm}
+
+Muitos dos pronomes indefinidos são formados com as palavras \textbf{some}, \textbf{any}, \textbf{no} e \textbf{every}.
+
+\vspace{0.5cm}
+
+Quando estão relacionados com pessoas, os pronomes apresentam a terminação: –\textit{body} ou –\textit{one}. 
+
+Para coisas, a terminação é –\textit{thing}. 
+
+Para lugares é –\textit{where}.
+
+\end{frame}
+
+%% --------------------------------------------------------
+
+\begin{frame}{Pronomes indefinidos - some}
+
+Sozinho, o termo some significa algum, alguns, um, uns, uma(s), alguma(s), algo, cerca de, certo(s), certa(s), um pouco de.
+
+\vspace{0.25cm}
+
+Quando acompanhados de sufixos a tradução pode ser diferente
+
+\begin{table}[]
+\centering
+\label{tab:my-table5}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{@{}lll@{}}
+\rowcolor[HTML]{3F6F96} 
+{\color[HTML]{FFFFFF} \textbf{Palavra}} & {\color[HTML]{FFFFFF} \textbf{Tradução}} & {\color[HTML]{FFFFFF} \textbf{Exemplos}}                           \\
+\rowcolor[HTML]{FFFFFF} 
+{\color[HTML]{404040} Somebody}         & {\color[HTML]{404040} alguém}            & {\color[HTML]{404040} Somebody is missing.} \\
+\rowcolor[HTML]{FFFFFF} 
+{\color[HTML]{404040} Someone} &
+  {\color[HTML]{404040} alguém} &
+  {\color[HTML]{404040} Someone ate the last piece of pizza. } \\
+\rowcolor[HTML]{FFFFFF} 
+{\color[HTML]{404040} Something} &
+  {\color[HTML]{404040} algo} &
+  {\color[HTML]{404040} We are looking for something   to eat.} \\
+\rowcolor[HTML]{FFFFFF} 
+{\color[HTML]{404040} Somewhere} &
+  {\color[HTML]{404040} em algum lugar} &
+  {\color[HTML]{404040} Somewhere in Brazil.} \\
+\rowcolor[HTML]{FFFFFF} 
+{\color[HTML]{404040} Someway} &
+  {\color[HTML]{404040} de alguma maneira} &
+  {\color[HTML]{404040} I will get there someway. } \\ \bottomrule
+\end{tabular}%
+}
+\end{table}
+
+\vspace{0.25cm}
+
+O \textbf{some} e seus derivados são utilizados em frases afirmativas. Nalguns casos, o some pode surgir em frases interrogativas.
+
+\end{frame}
+
+%% --------------------------------------------------------
+
+\begin{frame}{Pronomes indefinidos - any}
+
+O termo \textbf{any} significa: qualquer, quaisquer, algum, alguns, alguma(s), nenhum, nenhuma, um, uns, uma(s). No entanto, muitas palavras recebem sufixos
+
+\begin{table}[]
+\centering
+\label{tab:my-table8}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{@{}lll@{}}
+\rowcolor[HTML]{3F6F96} 
+{\color[HTML]{FFFFFF} \textbf{Palavra}} &
+  {\color[HTML]{FFFFFF} \textbf{Tradução}} &
+  {\color[HTML]{FFFFFF} \textbf{Exemplos}} \\
+\rowcolor[HTML]{FFFFFF} 
+{\color[HTML]{404040} Anybody} &
+  {\color[HTML]{404040} ninguém} &
+  {\color[HTML]{404040} Can anybody help me with my homework?} \\
+\rowcolor[HTML]{FFFFFF} 
+{\color[HTML]{404040} Anyone} &
+  {\color[HTML]{404040} qualquer um, ninguém} &
+  {\color[HTML]{404040} I didn’t know anyone at the party.} \\
+\rowcolor[HTML]{FFFFFF} 
+{\color[HTML]{404040} Anything} &
+  {\color[HTML]{404040} nada} &
+  {\color[HTML]{404040} I didn't hear anything.} \\
+\rowcolor[HTML]{FFFFFF} 
+{\color[HTML]{404040} Anywhere} &
+  {\color[HTML]{404040} qualquer lugar} &
+  {\color[HTML]{404040} I would go anywhere with you.} \\
+\rowcolor[HTML]{FFFFFF} 
+{\color[HTML]{404040} Anyway} &
+  {\color[HTML]{404040} de qualquer forma, jeito} &
+  {\color[HTML]{404040} Anyway, we found a place to eat. } \\ \bottomrule
+\end{tabular}%
+}
+\end{table}
+
+\vspace{0.25cm}
+
+O \textbf{any} e os outros pronomes indefinidos associados a ele são geralmente utilizados em negações ou perguntas.
+
+\end{frame}
+
+%% --------------------------------------------------------
+
+\begin{frame}{Pronomes indefinidos - no e none}
+
+O \textbf{no} é utilizado como pronome adjetivo. Já o \textbf{none} como pronome substantivo. 
+\begin{itemize}
+    \item A tradução de ambos é: nenhum, nenhuma
+\end{itemize}
+
+Quando acrescidos sufixos, a tradução muda
+
+\begin{table}[]
+\centering
+\label{tab:my-table9}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{@{}lll@{}}
+\rowcolor[HTML]{3F6F96} 
+{\color[HTML]{FFFFFF} \textbf{Palavra}} & {\color[HTML]{FFFFFF} \textbf{Tradução}} & {\color[HTML]{FFFFFF} \textbf{Exemplos}}             \\
+\rowcolor[HTML]{FFFFFF} 
+{\color[HTML]{404040} Nobody} & {\color[HTML]{404040} ninguém} & {\color[HTML]{404040} Diana threw a party, but nobody showed up.}               \\
+\rowcolor[HTML]{FFFFFF} 
+{\color[HTML]{404040} No one} & {\color[HTML]{404040} ninguém} & {\color[HTML]{404040} I thought I heard someone, but   there was no one there.} \\
+\rowcolor[HTML]{FFFFFF} 
+{\color[HTML]{404040} None}             & {\color[HTML]{404040} nenhum, nenhuma}   & {\color[HTML]{404040} None of these apples is ripe.} \\
+\rowcolor[HTML]{FFFFFF} 
+{\color[HTML]{404040} Nothing}          & {\color[HTML]{404040} nada}              & {\color[HTML]{404040} I have nothing in my purse.}   \\
+\rowcolor[HTML]{FFFFFF} 
+{\color[HTML]{404040} Nowhere}          & {\color[HTML]{404040} em nenhum lugar}   & {\color[HTML]{404040} Where are you going? Nowhere.} \\ \bottomrule
+\end{tabular}%
+}
+\end{table}
+
+\vspace{0.25cm}
+
+Ambos os pronomes são utilizados em sentenças que expressam negação.
+
+\end{frame}
+
+%% --------------------------------------------------------
+
+\begin{frame}{Pronomes indefinidos - every}
+
+O pronome \textbf{every} dependendo de seu contexto
+\begin{itemize}
+    \item Pode significar todo(s), toda(s) e cada
+    \item Quando recebem o sufixo, a tradução é diferente
+\end{itemize}
+
+\begin{table}[]
+\centering
+\label{tab:my-table10}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{@{}lll@{}}
+\rowcolor[HTML]{3F6F96} 
+{\color[HTML]{FFFFFF} \textbf{Palavra}} & {\color[HTML]{FFFFFF} \textbf{Tradução}}   & {\color[HTML]{FFFFFF} \textbf{Exemplos}}                    \\
+\rowcolor[HTML]{FFFFFF} 
+{\color[HTML]{404040} Everybody} &
+  {\color[HTML]{404040} toda a gente, todo o mundo} &
+  {\color[HTML]{404040} Everybody I know prefers chocolate to vanilla.} \\
+\rowcolor[HTML]{FFFFFF} 
+{\color[HTML]{404040} Everyone}         & {\color[HTML]{404040} todos, todo o mundo} & {\color[HTML]{404040} Everyone wants to come to the party.} \\
+\rowcolor[HTML]{FFFFFF} 
+{\color[HTML]{404040} Everything}       & {\color[HTML]{404040} tudo}                & {\color[HTML]{404040} Everything is possible.}              \\
+\rowcolor[HTML]{FFFFFF} 
+{\color[HTML]{404040} Everywhere}       & {\color[HTML]{404040} em todos os lugares} & {\color[HTML]{404040} God is everywhere.}                   \\
+\rowcolor[HTML]{FFFFFF} 
+{\color[HTML]{404040} Every way} &
+  {\color[HTML]{404040} de todo o jeito, todos os   sentidos} &
+  {\color[HTML]{404040} The new system is functioning perfectly in every way.} \\ \bottomrule
+\end{tabular}%
+}
+\end{table}
+
+\end{frame}
+
+%% --------------------------------------------------------
+
+\begin{frame}{Outros pronomes indefinidos}
+
+\begin{table}[]
+\centering
+\label{tab:my-table11}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{@{}lll@{}}
+\rowcolor[HTML]{3F6F96} 
+{\color[HTML]{FFFFFF} \textbf{Palavra}} &
+  {\color[HTML]{FFFFFF} \textbf{Tradução}} &
+  {\color[HTML]{FFFFFF} \textbf{Exemplos}} \\
+\rowcolor[HTML]{FFFFFF} 
+{\color[HTML]{404040} One} &
+  {\color[HTML]{404040} algum, alguma, a gente, certo, um certo} &
+  {\color[HTML]{404040} He is the one.} \\
+\rowcolor[HTML]{FFFFFF} 
+{\color[HTML]{404040} All} &
+  {\color[HTML]{404040} tudo, todo(s), toda(s)} &
+  {\color[HTML]{404040} All of these clothes need to be sold.} \\
+\rowcolor[HTML]{FFFFFF} 
+{\color[HTML]{404040} Much} &
+  {\color[HTML]{404040} muito, muitas} &
+  {\color[HTML]{404040} I spend much time reading.} \\
+\rowcolor[HTML]{FFFFFF} 
+{\color[HTML]{404040} Many} &
+  {\color[HTML]{404040} muitos, muitas} &
+  {\color[HTML]{404040} I have many t-shirts.} \\
+\rowcolor[HTML]{FFFFFF} 
+{\color[HTML]{404040} Little} &
+  {\color[HTML]{404040} pouco, pouca} &
+  {\color[HTML]{404040} I am a little upset.} \\
+\rowcolor[HTML]{FFFFFF} 
+{\color[HTML]{404040} Few} &
+  {\color[HTML]{404040} poucos, poucas} &
+  {\color[HTML]{404040} Few have ever seen this sculpture.} \\
+\rowcolor[HTML]{FFFFFF} 
+{\color[HTML]{404040} Fewer} &
+  {\color[HTML]{404040} menos} &
+  {\color[HTML]{404040} There will be fewer people at lunch than I expected.} \\
+\rowcolor[HTML]{FFFFFF} 
+{\color[HTML]{404040} Each} &
+  {\color[HTML]{404040} cada} &
+  {\color[HTML]{404040} Each person is different.} \\
+\rowcolor[HTML]{FFFFFF} 
+{\color[HTML]{404040} Such} &
+  {\color[HTML]{404040} tal, tais} &
+  {\color[HTML]{404040} I find such people very annoying.} \\
+\rowcolor[HTML]{FFFFFF} 
+{\color[HTML]{404040} Other} &
+  {\color[HTML]{404040} outro(s), outra(s)} &
+  {\color[HTML]{404040} I have other things to do.} \\
+\rowcolor[HTML]{FFFFFF} 
+{\color[HTML]{404040} Another} &
+  {\color[HTML]{404040} outro, outra} &
+  {\color[HTML]{404040} I would like another tea, please.} \\
+\rowcolor[HTML]{FFFFFF} 
+{\color[HTML]{404040} Either} &
+  {\color[HTML]{404040} um ou outro, uma ou outra,   cada} &
+  {\color[HTML]{404040} I like both pants. I would be happy with either.} \\
+\rowcolor[HTML]{FFFFFF} 
+{\color[HTML]{404040} Neither} &
+  {\color[HTML]{404040} nem um(a) nem outro(a)} &
+  {\color[HTML]{404040} Neither one of them understood what was happening.} \\
+\rowcolor[HTML]{FFFFFF} 
+{\color[HTML]{404040} Both} &
+  {\color[HTML]{404040} ambos, ambas} &
+  {\color[HTML]{404040} I have two sisters. I like both.} \\
+\rowcolor[HTML]{FFFFFF} 
+{\color[HTML]{404040} Enough} &
+  {\color[HTML]{404040} bastante, suficiente} &
+  {\color[HTML]{404040} That's enough!} \\
+\rowcolor[HTML]{FFFFFF} 
+{\color[HTML]{404040} Several} &
+  {\color[HTML]{404040} vários, várias} &
+  {\color[HTML]{404040} Several things have to be done this week.} \\ \bottomrule
+\end{tabular}%
+}
+\end{table}
+
+\end{frame}
+
+\end{document}
