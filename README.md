@@ -24,7 +24,7 @@ As aulas serão todas ministradas on-line. Aulas teóricas expositivas serão re
   - **01/12** - [Aula 07: Verbos modais, adjetivos em grau comparativo e termos comparativos (Assíncrona)](https://youtu.be/FGl75Ih37LU)
   - **02/12** - [Aula 08: Apresentação de seminário (Assíncrona)](https://github.com/iagoac/dce747/blob/main/textos/resumo_aula_08.pdf)
     - [Seminário](https://www.youtube.com/watch?v=68bXdGRMdlA)
-  - **08/12** - Aula 09: Pronomes (Assíncrona)
+  - **08/12** - [Aula 09: Pronomes (Assíncrona)](https://youtu.be/hPuqDRERT0A)
   - **09/12** - [Aula 10: Apresentação de seminário (Assíncrona)](https://github.com/iagoac/dce747/blob/main/textos/resumo_aula_10.pdf)
     - [Seminário](https://youtu.be/TSBM3deEbHY)
   - **15/12** - Aula 11: Estruturação de frases em inglês e grupos nominais (Assíncrona)
