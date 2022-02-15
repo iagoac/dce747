@@ -31,7 +31,7 @@ As aulas serão todas ministradas on-line. Aulas teóricas expositivas serão re
   - **16/12** - [Aula 12: Apresentação de seminário (Assíncrona)](https://github.com/iagoac/dce747/blob/main/textos/resumo_aula_12.pdf)
   - **22/12** - Aula 13: Exercícios teóricos (Assíncrona)
   - **23/12** - Aula 14: Exercícios teóricos (Assíncrona)
-  - **03/02** - Aula 15: Prefixos, sufixos e formação de palavras em inglês (Assíncrona)
+  - **03/02** - [Aula 15: Prefixos, sufixos e formação de palavras em inglês (Assíncrona)](https://youtu.be/cwpGSGJVfWQ)
   - **09/02** - [Aula 16: Apresentação de seminário (Assíncrona)](https://github.com/iagoac/dce747/blob/main/textos/resumo_aula_16.pdf)
   - **10/02** - Aula 17: Scanning, presente simples, presente contínuo e presente perfeito (Assíncrona)
   - **16/02** - [Aula 18: Apresentação de seminários (Assíncrona)](https://github.com/iagoac/dce747/blob/main/textos/resumo_aula_18.pdf)
