@@ -35,6 +35,7 @@ As aulas serão todas ministradas on-line. Aulas teóricas expositivas serão re
   - **09/02** - [Aula 16: Apresentação de seminário (Assíncrona)](https://github.com/iagoac/dce747/blob/main/textos/resumo_aula_16.pdf)
   - **10/02** - Aula 17: Scanning, presente simples, presente contínuo e presente perfeito (Assíncrona)
   - **16/02** - [Aula 18: Apresentação de seminários (Assíncrona)](https://github.com/iagoac/dce747/blob/main/textos/resumo_aula_18.pdf)
+    - [Seminário](https://youtu.be/4_Ayc11mWIw)
   - **17/02** - Aula 19: Diferentes formas do tempo futuro em inglês (Assíncrona)
   - **23/02** - [Aula 20: Apresentação de seminários (Assíncrona)](https://github.com/iagoac/dce747/blob/main/textos/resumo_aula_20.pdf)
   - **09/03** - Aula 21: Exercícios teóricos (Assíncrona)
