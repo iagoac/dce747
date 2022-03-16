@@ -29,6 +29,7 @@ As aulas serão todas ministradas on-line. Aulas teóricas expositivas serão re
     - [Seminário](https://youtu.be/TSBM3deEbHY)
   - **15/12** - [Aula 11: Estruturação de frases em inglês e grupos nominais (Assíncrona)](https://youtu.be/6iM1hfuFBO4)
   - **16/12** - [Aula 12: Apresentação de seminário (Assíncrona)](https://github.com/iagoac/dce747/blob/main/textos/resumo_aula_12.pdf)
+    - [Seminário](https://youtu.be/r_iJ3qbPC_k)
   - **22/12** - Aula 13: Exercícios teóricos (Assíncrona)
   - **23/12** - Aula 14: Exercícios teóricos (Assíncrona)
   - **03/02** - [Aula 15: Prefixos, sufixos e formação de palavras em inglês (Assíncrona)](https://youtu.be/cwpGSGJVfWQ)
