@@ -47,6 +47,7 @@ As aulas serão todas ministradas on-line. Aulas teóricas expositivas serão re
   - **23/03** - [Aula 25: Apresentação de seminários (Assíncrona)](https://github.com/iagoac/dce747/blob/main/textos/resumo_aula_25.pdf)
   - **24/03** - Aula 26: Estrutura textual "problema-solução" de textos científicos (Assíncrona)
   - **30/03** - [Aula 27: Apresentação de seminários (Assíncrona)](https://github.com/iagoac/dce747/blob/main/textos/resumo_aula_27.pdf)
+    - [Seminário](https://www.youtube.com/watch?v=3woaiSdteT8)
   - **31/03** - Aula 28: Exercícios teóricos (Assíncrona)
   - **06/04** - Aula 29: Dúvidas para a prova especial (Síncrona)
   - **07/04** - Aula 30: Prova especial
