@@ -39,6 +39,7 @@ As aulas serão todas ministradas on-line. Aulas teóricas expositivas serão re
     - [Seminário](https://youtu.be/4_Ayc11mWIw)
   - **17/02** - [Aula 19: Diferentes formas do tempo futuro em inglês + comentários sobre o trabalho final (Assíncrona)](https://youtu.be/syazhN6De9o)
   - **23/02** - [Aula 20: Apresentação de seminários (Assíncrona)](https://github.com/iagoac/dce747/blob/main/textos/resumo_aula_20.pdf)
+    - [Seminário](https://www.youtube.com/watch?v=ZEojO5fiytQ)
   - **09/03** - Aula 21: Exercícios teóricos (Assíncrona)
   - **10/03** - Aula 22: Verbos regulares e irregulares (Assíncrona)
     - Estudar a [lista de verbos irregulares](https://github.com/iagoac/dce747/blob/main/material_apoio/verbos_irregulares.pdf)
