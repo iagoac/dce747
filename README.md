@@ -44,8 +44,10 @@ As aulas serão todas ministradas on-line. Aulas teóricas expositivas serão re
   - **10/03** - Aula 22: Verbos regulares e irregulares (Assíncrona)
     - Estudar a [lista de verbos irregulares](https://github.com/iagoac/dce747/blob/main/material_apoio/verbos_irregulares.pdf)
   - **16/03** - [Aula 23: Apresentação de seminários (Assíncrona)](https://github.com/iagoac/dce747/blob/main/textos/resumo_aula_23.pdf)
+    - [Seminário](https://youtu.be/Hb3m_atDfyE)
   - **17/03** - [Aula 24: Coerência, coesão e o uso de conectivos (Assíncrona)](https://youtu.be/3_SkbXvsu1A)
   - **23/03** - [Aula 25: Apresentação de seminários (Assíncrona)](https://github.com/iagoac/dce747/blob/main/textos/resumo_aula_25.pdf)
+    - Seminário entregue, mas não postado on-line
   - **24/03** - Aula 26: Estrutura textual "problema-solução" de textos científicos (Assíncrona)
   - **30/03** - [Aula 27: Apresentação de seminários (Assíncrona)](https://github.com/iagoac/dce747/blob/main/textos/resumo_aula_27.pdf)
     - [Seminário](https://www.youtube.com/watch?v=3woaiSdteT8)
